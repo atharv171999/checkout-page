@@ -20,6 +20,7 @@ header div{
     align-items: center;
 }
 .summary-btn {
+    cursor: pointer;
   background-color: #181818;
   width: 100%;
   padding: 1.2rem;
