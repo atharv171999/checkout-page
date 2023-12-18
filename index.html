@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div>
+        <div class="logo"><img src="" alt="" /><span>Logo</span></div>
+      </div>
+    </header>
+    <div class="checkout-container">
+      <button class="summary-btn accordian">
+        <div class="summary-btn-content">
+          <div class="order-summary">
+            <div class="cart-svg">
+            </div>
+            <div class="show-summary">Show order summary</div>
+            <div class="hide-summary">Hide order summary</div>
+            <div class="up-arrow-svg"></div>
+            <div class="down-arrow-svg"></div>
+          </div>
+          <div class="order-total-amount">$11.00</div>
+        </div>
+      </button>
+      <div class="summary-drop-box close panel">
+        <div class="amount-calculation">
+          <div class="order-details">
+            <div class="product">
+              <div class="product-details">
+                <div class="order-img">IMG</div>
+                <div class="order-desc">
+                  <span class="product-name">Acme Drawstring Bag</span>
+                  <span class="product-dims">White / 7 x 9 inch</span>
+                </div>
+              </div>
+              <div class="single-order-amount">$7.00</div>
+            </div>
+            <div class="product">
+              <div class="product-details">
+                <div class="order-img">IMG</div>
+                <div class="order-desc">
+                  <span class="product-name">Acme Drawstring Bag</span>
+                  <span class="product-dims">White / 6 x 8 inch</span>
+                </div>
+              </div>
+              <div class="single-order-amount">$4.00</div>
+            </div>
+          </div>
+          <div class="subtotal-details">
+            <div class="sub-total">
+              <span class="">Subtotal</span>
+              <span class=""><strong>$11.00</strong></span>
+            </div>
+            <div class="shipping">
+              <span>Shipping</span>
+              <span class="calculate-text">Calculated at next step</span>
+            </div>
+            <div class="total">
+              <span><strong>Total</strong></span>
+              <span
+                ><span class="usd-font">USD</span><strong>$11.00</strong></span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="summary-box">
+        <div class="amount-calculation">
+          <div class="order-details">
+            <div class="product">
+              <div class="product-details">
+                <div class="order-img">IMG</div>
+                <div class="order-desc">
+                  <span class="product-name">Acme Drawstring Bag</span>
+                  <span class="product-dims">White / 7 x 9 inch</span>
+                </div>
+              </div>
+              <div class="single-order-amount">$7.00</div>
+            </div>
+            <div class="product">
+              <div class="product-details">
+                <div class="order-img">IMG</div>
+                <div class="order-desc">
+                  <span class="product-name">Acme Drawstring Bag</span>
+                  <span class="product-dims">White / 6 x 8 inch</span>
+                </div>
+              </div>
+              <div class="single-order-amount">$4.00</div>
+            </div>
+          </div>
+          <div class="subtotal-details">
+            <div class="sub-total">
+              <span class="">Subtotal</span>
+              <span class=""><strong>$11.00</strong></span>
+            </div>
+            <div class="shipping">
+              <span>Shipping</span>
+              <span class="calculate-text">Calculated at next step</span>
+            </div>
+            <div class="total">
+              <span><strong>Total</strong></span>
+              <span
+                ><span class="usd-font">USD</span><strong>$11.00</strong></span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <section>
+        <form class="checkout-form" action="">
+          <div class="checkout-details">
+            <div class="header">
+              <div class="logo"><img src="" alt="" /><span>Logo</span></div>
+            </div>
+            <div class="contact-details">
+              <h2><strong>Contact</strong></h2>
+              <div class="email-cont input">
+                <input
+                  class="email-input"
+                  type="text"
+                  id="email"
+                  name="email"
+                  placeholder="Email or mobile phone number"
+                  inputmode="text"
+                  aria-labelledby="email-label"
+                />
+              </div>
+              <div class="checkbox-input">
+                <input class="checkbox" type="checkbox" />
+                <span>Email me with news and offers</span>
+              </div>
+            </div>
+            <div>
+              <div class="shipping-details">
+                <h2>Shipping address</h2>
+                <div class="countryCode-cont input">
+                  <select
+                    class="country-code"
+                    aria-placeholder="Country/Region"
+                    name="countryCode"
+                    id=""
+                  >
+                    <option value="US">United States</option>
+                  </select>
+                </div>
+                <div class="name-cont">
+                  <div class="fname-cont input">
+                    <input
+                      class="fname-input"
+                      type="text"
+                      id="fname"
+                      name="fname"
+                      placeholder="First name (optional)"
+                    />
+                  </div>
+                  <div class="lname-cont input">
+                    <input
+                      class="lname-input"
+                      type="text"
+                      id="lname"
+                      name="lname"
+                      placeholder="Last name"
+                    />
+                  </div>
+                </div>
+                <div class="address-cont input">
+                  <input
+                    class="address-input"
+                    type="text"
+                    id="shipping-address1"
+                    name="address1"
+                    placeholder="Address"
+                  />
+                </div>
+                <div class="address2-cont input">
+                  <input
+                    class="address2-input"
+                    type="text"
+                    id="shipping-address2"
+                    name="address2"
+                    placeholder="Apartment, suite, etc. (optional)"
+                  />
+                </div>
+                <div class="zone-cont input">
+                  <input
+                    class="city-input"
+                    type="text"
+                    name="city"
+                    placeholder="City"
+                  />
+                  <select class="zone" name="zone" id="Select1">
+                    <option value="UK">Uttarakhand</option>
+                  </select>
+                  <input
+                    class="zip-input"
+                    type="text"
+                    id="text-field"
+                    name="postal-code"
+                    placeholder="ZIP code"
+                  />
+                </div>
+                <div class="checkbox-input">
+                  <input class="checkbox" type="checkbox" />
+                  <span>Save this information for next time</span>
+                </div>
+                <div class="shipping-btn">
+                  <button>continue to shipping</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+        <div class="footer">
+          <span>All rights reserved Dev Vercel Shop</span>
+        </div>
+      </section>
+    </div>
+    <footer>
+      <div>
+        <div class="footer-content">
+          <span>All rights reserved Dev Vercel Shop</span>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="./script.js"></script>
+</html>
