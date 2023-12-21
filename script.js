@@ -3,11 +3,9 @@ let hide = document.querySelector(".hide-summary");
 let show = document.querySelector(".show-summary");
 
 acc.addEventListener("click", function () {
-  this.classList.toggle("active");
   var panel = document.querySelector(".panel");
   if (panel.style.maxHeight) {
     panel.style.maxHeight = null;
-
     hide.style.display = "none";
     show.style.display = "block";
   } else {
