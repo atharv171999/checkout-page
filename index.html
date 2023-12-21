@@ -12,63 +12,65 @@
         <div class="header">
           <div class="logo"><img src="" alt="" /><span>Logo</span></div>
         </div>
-    <div class="checkout-container">
-      <button class="summary-btn accordian">
-        <div class="summary-btn-content">
-          <div class="order-summary">
-            <div class="cart-svg">
+        <!--  accordion start -->
+        <button class="accordion">
+            <div class="summary-btn-content">
+                <div class="order-summary">
+                    <div class="cart-svg">
+                  </div>
+      <div class="show-summary">Show order summary</div>
+      <div class="hide-summary">Hide order summary</div>
+    </div>
+    <div class="order-total-amount">$11.00</div>
+  </div>
+        </button>
+<div class="panel">
+  <div class="summary-drop-box">
+    <div class="amount-calculation">
+      <div class="order-details">
+        <div class="product">
+          <div class="product-details">
+            <div class="order-img">IMG</div>
+            <div class="order-desc">
+              <span class="product-name">Acme Drawstring Bag</span>
+              <span class="product-dims">White / 7 x 9 inch</span>
             </div>
-            <div class="show-summary">Show order summary</div>
-            <div class="hide-summary">Hide order summary</div>
-            <div class="up-arrow-svg"></div>
-            <div class="down-arrow-svg"></div>
           </div>
-          <div class="order-total-amount">$11.00</div>
+          <div class="single-order-amount">$7.00</div>
         </div>
-      </button>
-      <div class="summary-drop-box close panel">
-        <div class="amount-calculation">
-          <div class="order-details">
-            <div class="product">
-              <div class="product-details">
-                <div class="order-img">IMG</div>
-                <div class="order-desc">
-                  <span class="product-name">Acme Drawstring Bag</span>
-                  <span class="product-dims">White / 7 x 9 inch</span>
-                </div>
-              </div>
-              <div class="single-order-amount">$7.00</div>
-            </div>
-            <div class="product">
-              <div class="product-details">
-                <div class="order-img">IMG</div>
-                <div class="order-desc">
-                  <span class="product-name">Acme Drawstring Bag</span>
-                  <span class="product-dims">White / 6 x 8 inch</span>
-                </div>
-              </div>
-              <div class="single-order-amount">$4.00</div>
+        <div class="product">
+          <div class="product-details">
+            <div class="order-img">IMG</div>
+            <div class="order-desc">
+              <span class="product-name">Acme Drawstring Bag</span>
+              <span class="product-dims">White / 6 x 8 inch</span>
             </div>
           </div>
-          <div class="subtotal-details">
-            <div class="sub-total">
-              <span class="">Subtotal</span>
-              <span class=""><strong>$11.00</strong></span>
-            </div>
-            <div class="shipping">
-              <span>Shipping</span>
-              <span class="calculate-text">Calculated at next step</span>
-            </div>
-            <div class="total">
-              <span><strong>Total</strong></span>
-              <span
-                ><span class="usd-font">USD</span><strong>$11.00</strong></span
-              >
-            </div>
-          </div>
+          <div class="single-order-amount">$4.00</div>
         </div>
       </div>
+      <div class="subtotal-details">
+        <div class="sub-total">
+          <span class="">Subtotal</span>
+          <span class=""><strong>$11.00</strong></span>
+        </div>
+        <div class="shipping">
+          <span>Shipping</span>
+          <span class="calculate-text">Calculated at next step</span>
+        </div>
+        <div class="total">
+          <span><strong>Total</strong></span>
+          <span
+            ><span class="usd-font">USD</span><strong>$11.00</strong></span
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        <!--  accordion end -->
 
+          <div class="checkout-container">
       <div class="summary-box">
         <div class="amount-calculation">
           <div class="order-details">
@@ -145,7 +147,7 @@
                     name="countryCode"
                     id=""
                   >
-                    <option value="US">United States</option>
+                    <option value="US">India</option>
                   </select>
                 </div>
                 <div class="name-cont">
